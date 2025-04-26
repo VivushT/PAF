@@ -31,7 +31,14 @@ function FollowingAccountItem(props) {
   }
 
   return (
-    
+    <tr style={{
+      backgroundColor: 'rgba(255, 255, 255, 0.05)',
+      borderRadius: '0.5rem',
+      transition: 'all 0.3s ease',
+    }}
+    onMouseOver={(e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)'}
+    onMouseOut={(e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.05)'}
+    >
       <td style={{ 
         padding: '1rem', 
         borderTopLeftRadius: '0.5rem',
