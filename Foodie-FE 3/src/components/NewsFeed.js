@@ -31,7 +31,9 @@ function NewsFeed() {
       <AppBar sx={{background:' #b45309'}} position="static" color="primary">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-         
+            <Link to="/s" className={styles.navTitle} style={{ textDecoration: "none", color: "inherit" }}>
+              COOKSHARE
+            </Link>
           </Typography>
           <Box>
             <IconButton color="inherit" component={Link} to="">
