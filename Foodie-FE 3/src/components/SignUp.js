@@ -296,22 +296,7 @@ function SignUp() {
                   }}
                 >
                   <Row>
-                    <Form.Group as={Col} md="12" controlId="signInFirstName">
-                      <Form.Label style={{ color: "#78350f", fontWeight: '500', marginBottom: '0rem' }}>First Name</Form.Label>
-                      <Form.Control
-                        type="text"
-                        name="firstName"
-                        value={values.firstName}
-                        onChange={handleChange}
-                        isInvalid={touched.firstName && errors.firstName}
-                        placeholder="Enter your first name"
-                        style={{
-                          padding: '0.5rem',
-                          borderRadius: '0.5rem',
-                          border: '1px solid #d1d5db',
-                          width: '100%'
-                        }}
-                      />
+                 
                       <Form.Control.Feedback type="invalid">
                         Please enter your first name
                       </Form.Control.Feedback>
