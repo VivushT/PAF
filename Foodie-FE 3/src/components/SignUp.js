@@ -178,7 +178,14 @@ function SignUp() {
         </div>
 
         {/* Logo and Title */}
-       
+        <div style={{ 
+          display: 'flex', 
+          alignItems: 'center',
+          marginBottom: '2rem',
+          opacity: animationProgress / 100,
+          transform: `translateY(${(1 - animationProgress / 100) * 30}px)`,
+          transition: 'transform 1s, opacity 1s',
+        }}>
           <div style={{
             backgroundColor: 'white',
             padding: '0.75rem',
