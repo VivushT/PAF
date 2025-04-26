@@ -286,7 +286,7 @@ function PostItem(props) {
           )}
         </Row>
       </div> */}
-   
+    </div>
   );
 }
 
