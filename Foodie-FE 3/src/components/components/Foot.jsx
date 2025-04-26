@@ -6,7 +6,11 @@ import './icons.css'
 const Foot = () => {
 
     return (
-        
+        <div className="foot">
+            <SlLike className="like"/>
+            <AiOutlineComment className="comment"/>
+            <TbShare3 className="comment"/>
+        </div>
     );
 };
 
