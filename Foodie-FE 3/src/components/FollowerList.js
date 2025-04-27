@@ -132,11 +132,7 @@ function FollowerList() {
           transition: 'transform 1s, opacity 1s',
           transitionDelay: '0.4s'
         }}>
-          <table style={{
-            width: '100%',
-            borderCollapse: 'separate',
-            borderSpacing: '0 0.5rem'
-          }}>
+          
             <tbody>
               {storeFollowerAccounts ? (
                 storeFollowerAccounts.map((followerAccount) => {
