@@ -13,7 +13,7 @@
 }
 
 .pdf-container:hover {
-    border-color: #d97706;
+    border-color: #068fd9;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
@@ -30,7 +30,7 @@
     justify-content: center;
     height: 300px;
     background: rgba(255, 255, 255, 0.9);
-    color: #92400e;
+    color: #0e6d92;
     font-size: 18px;
     border: 1px solid rgba(217, 119, 6, 0.2);
     border-radius: 12px;
@@ -49,7 +49,7 @@
 .carousel-control-next-icon {
     width: 40px;
     height: 40px;
-    background-color: rgba(217, 119, 6, 0.8);
+    background-color: rgba(15, 110, 147, 0.8);
     border-radius: 50%;
     padding: 20px;
     transition: all 0.3s ease;
@@ -68,7 +68,7 @@
 
 .carousel-control-prev:hover .carousel-control-prev-icon,
 .carousel-control-next:hover .carousel-control-next-icon {
-    background-color: #b45309;
+    background-color: #0c6478;
     transform: scale(1.1);
 }
 
@@ -85,7 +85,7 @@
 }
 
 .carousel-indicators button.active {
-    background-color: #d97706;
+    background-color: #069dd9;
     width: 12px;
     height: 12px;
 }
@@ -124,7 +124,7 @@
 
 .pdf-item .btn {
     margin-left: 10px;
-    background-color: #d97706;
+    background-color: #06a1d9;
     border: none;
     border-radius: 6px;
     color: rgb(255, 255, 255);
@@ -133,7 +133,7 @@
 }
 
 .pdf-item .btn:hover {
-    background-color: #b45309;
+    background-color: #0998b4;
     transform: translateY(-1px);
 }
 
@@ -193,7 +193,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #d97706;
+    color: #069dd9;
     font-weight: 500;
 }
 
@@ -209,7 +209,7 @@
 
 .pdf-progress-bar {
     height: 100%;
-    background: #d97706;
+    background: #06afd9;
     transition: width 0.3s ease;
 }
 

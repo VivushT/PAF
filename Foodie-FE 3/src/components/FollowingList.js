@@ -31,7 +31,7 @@ function FollowingList() {
   return (
     <div style={{
       minHeight: '100vh',
-      background: 'linear-gradient(to bottom right, #7c2d12, #b45309)',
+      background: 'linear-gradient(to bottom right,rgb(18, 124, 122),rgb(9, 180, 180))',
       color: 'white',
       display: 'flex',
       flexDirection: 'column',

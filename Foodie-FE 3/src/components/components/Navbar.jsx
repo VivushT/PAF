@@ -51,7 +51,15 @@ const Navbar = ({ user }) => {
                             </Link>
                         </span>
                     </ul>
-                ) : (<Link className='linklog' to="login">Login</Link>)
+                ) : (<Link className='linklog' to="login"><div className="userrow">
+                    <div className="row">
+                        <img src={friend.img} alt="" className="frienddp" />
+                        <p className="name">{friend.name}</p>
+                    </div>
+                    <div className='followbutton'>
+                        <p className="text">Follow</p>
+                    </div>
+                </div></Link>)
             }
 
 
