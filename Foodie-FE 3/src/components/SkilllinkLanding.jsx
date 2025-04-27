@@ -16,7 +16,7 @@ export default function CookingSkillsLanding() {
   return (
     <div style={{
       minHeight: '100vh',
-      background: 'linear-gradient(to bottom right, #7c2d12, #b45309)',
+      background: 'linear-gradient(to bottom right,rgb(13, 80, 72),rgb(13, 87, 75))',
       color: 'white',
       display: 'flex',
       flexDirection: 'column',
@@ -103,7 +103,7 @@ export default function CookingSkillsLanding() {
             fontSize: '3rem',
             fontWeight: 'bold',
             letterSpacing: '-0.025em'
-          }}>COOKSHARE</h1>
+          }}>PROLEARN</h1>
         </div>
 
         {/* Main headline */}
@@ -117,7 +117,7 @@ export default function CookingSkillsLanding() {
           transition: 'transform 1s, opacity 1s',
           transitionDelay: '0.2s'
         }}>
-          Cook. Share. Inspire.
+          Learn. Share. Inspire.
         </h2>
 
         {/* Description */}
@@ -132,8 +132,8 @@ export default function CookingSkillsLanding() {
           transition: 'transform 1s, opacity 1s',
           transitionDelay: '0.4s'
         }}>
-          COOKSHARE is a community where passionate foodies connect to share recipes, 
-          cooking techniques, and culinary expertise from around the world.
+          PROLEARN is a community where passionate foodies connect to share recipes, 
+          learning techniques, and culinary expertise from around the world.
         </p>
 
         {/* Feature highlights */}
@@ -179,13 +179,13 @@ export default function CookingSkillsLanding() {
           }}>
             <Clock style={{ color: '#fbbf24', marginBottom: '1rem' }} size={32} />
             <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Live Workshops</h3>
-            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Join virtual cooking sessions with expert chefs and learn new techniques in real-time.</p>
+            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Join virtual learning sessions with expert chefs and learn new techniques in real-time.</p>
           </div>
         </div>
 
         {/* CTA Button */}
         <button style={{ 
-          background: 'linear-gradient(to right, #92400e, #d97706)',
+          background: 'linear-gradient(to right,rgb(17, 76, 68),rgb(19, 70, 55))',
           color: 'white',
           fontWeight: 'bold',
           padding: '1rem 2rem',
@@ -205,7 +205,7 @@ export default function CookingSkillsLanding() {
         onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
           <Link style={{textDecoration:'none', color:'white'}} to="/s">
-            <span>Start Cooking</span>
+            <span>Start learning</span>
           </Link> 
           <ChevronRight style={{ marginLeft: '0.5rem' }} />
         </button>

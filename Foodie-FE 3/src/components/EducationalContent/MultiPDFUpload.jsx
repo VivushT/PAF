@@ -92,7 +92,7 @@ function MultiPDFUpload(props) {
     const uploadButtonStyles = {
         display: 'flex',
         alignItems: 'center',
-        background: 'linear-gradient(135deg, #92400e, #ea580c)',
+        background: 'linear-gradient(135deg, #92400e,rgb(12, 164, 234))',
         color: '#fff',
         padding: '8px 15px',
         borderRadius: '10px',
