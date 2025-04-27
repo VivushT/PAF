@@ -17,13 +17,13 @@ const ProgressTracker = ({ userId }) => {
     currentValue: 0,
     targetValue: 0,
     unit: 'minutes',
-    category: 'Basic Cooking',
+    category: 'Basic Learning',
     userId: userId
   });
 
   // Predefined cooking-related categories
   const cookingCategories = [
-    'Basic Cooking',
+    'Basic Learning',
     'Baking',
     'Knife Skills',
     'Meal Prep',
@@ -298,7 +298,7 @@ const ProgressTracker = ({ userId }) => {
         <div className="header-icon">
           <Award size={32} />
         </div>
-        <h1>COOKING PROGRESS TRACKER</h1>
+        <h1>LEARNING PROGRESS TRACKER</h1>
       </div>
 
       {/* Add/Cancel button */}
@@ -311,7 +311,7 @@ const ProgressTracker = ({ userId }) => {
           className={`add-button ${showForm ? 'cancel' : ''}`}
           onClick={() => setShowForm(!showForm)}
         >
-          {showForm ? 'Cancel' : 'Track New Cooking Skill'}
+          {showForm ? 'Cancel' : 'Track New Learning Skill'}
         </button>
       </div>
 
@@ -329,7 +329,7 @@ const ProgressTracker = ({ userId }) => {
           transitionDelay: '0.15s'
         }}>
           <h3 className="form-title">
-            {editMode ? 'Edit Cooking Skill' : 'Add New Cooking Skill'}
+            {editMode ? 'Edit Learning Skill' : 'Add New Learning Skill'}
             <div className="form-title-underline"></div>
           </h3>
           
@@ -430,7 +430,8 @@ const ProgressTracker = ({ userId }) => {
               </div>
               
               <div className="form-group">
-                <label>Cooking Category</label>
+                <label>
+                  Learning Category</label>
                 <select
                   name="category"
                   className="form-input"
@@ -456,7 +457,7 @@ const ProgressTracker = ({ userId }) => {
                 type="submit" 
                 className="submit-button"
               >
-                {editMode ? 'Update Cooking Skill' : 'Track Cooking Skill'}
+                {editMode ? 'Update Cooking Skill' : 'Track Learning Skill'}
               </button>
             </div>
           </form>
@@ -470,7 +471,7 @@ const ProgressTracker = ({ userId }) => {
         transitionDelay: '0.2s',
       }}>
         <h3>
-          My Cooking Skills Progress
+          My Learning Skills Progress
           <div className="list-header-underline"></div>
         </h3>
       </div>
@@ -499,7 +500,7 @@ const ProgressTracker = ({ userId }) => {
           </div>
         ) : progressItems.length === 0 ? (
           <div className="empty-list">
-            <p>No cooking skills tracked yet. Add your first skill to track your progress!</p>
+            <p>No learning skills tracked yet. Add your first skill to track your progress!</p>
           </div>
         ) : (
           <div className="progress-items">
