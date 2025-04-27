@@ -44,11 +44,11 @@ function AllAccounts() {
       background: 'linear-gradient(to bottom right, #7c2d12, #b45309)',
       color: 'white',
       display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      padding: '2rem 1rem',
-      position: 'relative',
-      overflow: 'hidden'
+      // flexDirection: 'column',
+      // alignItems: 'center',
+      // padding: '2rem 1rem',
+      // position: 'relative',
+      // overflow: 'hidden'
     }}>
       {/* Animated background elements */}
       <div style={{
