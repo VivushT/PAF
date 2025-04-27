@@ -17,7 +17,7 @@ const Navbar = ({ user }) => {
     return (
         <div className="navbar">
             <span className="logo">
-                <Link className='navtitle'></Link>
+                <Link className='navtitle'>FOODIEES</Link>
             </span>{
                 user ? (
                     <ul className="list">
