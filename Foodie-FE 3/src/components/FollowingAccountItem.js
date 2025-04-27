@@ -82,8 +82,8 @@ function FollowingAccountItem(props) {
           onClick={handleFollowButtonClick}
           style={{
             background: tickIconStatus 
-              ? 'linear-gradient(to right, #991b1b, #dc2626)' 
-              : 'linear-gradient(to right, #92400e, #d97706)',
+              ? 'linear-gradient(to right,rgb(27, 153, 149),rgb(38, 214, 220))' 
+              : 'linear-gradient(to right,rgb(14, 146, 122),rgb(6, 199, 217))',
             color: 'white',
             fontWeight: 'bold',
             padding: '0.5rem 1.25rem',

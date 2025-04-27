@@ -214,7 +214,7 @@ function MyProfile(props) {
   return (
     <div style={{
       minHeight: '100vh',
-      background: 'linear-gradient(to bottom right, #7c2d12, #b45309)',
+      background: 'linear-gradient(to bottom right,rgb(18, 124, 83),rgb(22, 124, 78))',
       color: 'white',
       display: 'flex',
       flexDirection: 'column',
@@ -295,7 +295,7 @@ function MyProfile(props) {
           fontWeight: 'bold',
           color: '#ffff',
           margin: 0
-        }}>COOKSHARE</h1>
+        }}></h1>
       </div>
       
       {/* Profile Card */}
@@ -322,7 +322,7 @@ function MyProfile(props) {
             width: '80px',
             height: '80px',
             borderRadius: '50%',
-            background: 'linear-gradient(135deg, #92400e, #ea580c)',
+            background: 'linear-gradient(135deg,rgb(14, 146, 109),rgb(22, 140, 97))',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -591,7 +591,7 @@ function MyProfile(props) {
               padding: "2rem",
               color: "#78350f"
             }}>
-              <p>You haven't shared any recipes yet. Start cooking and sharing!</p>
+              <p>You haven't shared any recipes yet. Start learning and sharing!</p>
             </div>
           )}
         </Modal.Body>

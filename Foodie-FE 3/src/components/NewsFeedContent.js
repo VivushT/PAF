@@ -25,7 +25,7 @@ function NewsFeedContent() {
   return (
     <div style={{
       minHeight: '100vh',
-      background: 'linear-gradient(to bottom right, #7c2d12, #b45309)',
+      background: 'linear-gradient(to bottom right,rgb(18, 124, 113),rgb(18, 124, 113))',
       color: 'white',
       display: 'flex',
       flexDirection: 'column',
@@ -103,7 +103,7 @@ function NewsFeedContent() {
           fontWeight: 'bold',
           color: '#ffff',
           margin: 0
-        }}>COOKSHARE</h1>
+        }}>PROLEARN</h1>
       </div>
 
       {/* Post Composer */}
