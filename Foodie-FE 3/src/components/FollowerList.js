@@ -31,7 +31,7 @@ function FollowerList() {
   return (
     <div style={{
       minHeight: '100vh',
-      background: 'linear-gradient(to bottom right, #7c2d12, #b45309)',
+      background: 'linear-gradient(to bottom right,rgb(18, 124, 115),rgb(9, 180, 174))',
       color: 'white',
       display: 'flex',
       flexDirection: 'column',

@@ -122,7 +122,7 @@ function SignUp() {
     <>
       <div style={{
         minHeight: '100vh',
-        background: 'linear-gradient(to bottom right, #7c2d12, #b45309)',
+        background: 'linear-gradient(to bottom right,rgb(12, 89, 87),rgb(18, 117, 87))',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -202,7 +202,7 @@ function SignUp() {
             fontWeight: 'bold',
             color: 'white',
             margin: 0
-          }}>COOKSHARE</h1>
+          }}>PROLEARN</h1>
         </div>
 
         <div style={{
@@ -240,7 +240,7 @@ function SignUp() {
               <p style={{
                 color: '#78350f',
                 fontSize: '1rem'
-              }}>Create an account to start your cooking journey</p>
+              }}>Create an account to start your learning journey</p>
             </div>
 
             <div style={{
@@ -430,7 +430,7 @@ function SignUp() {
           {/* Right side decorative panel */}
           <div style={{
             flex: 1,
-            background: 'linear-gradient(135deg, #92400e, #ea580c)',
+            background: 'linear-gradient(135deg,rgb(12, 97, 74),rgb(18, 104, 84))',
             padding: '2rem',
             display: 'flex',
             flexDirection: 'column',
@@ -467,13 +467,13 @@ function SignUp() {
                 fontSize: '2rem',
                 fontWeight: 'bold',
                 marginBottom: '1rem'
-              }}>Create. Connect. Cook.</h2>
+              }}>Create. Connect. Learn.</h2>
               <p style={{
                 fontSize: '1.125rem',
                 marginBottom: '2rem',
                 lineHeight: '1.6'
               }}>
-                Join thousands of passionate chefs and food enthusiasts on the COOKSHARE platform.
+                Join thousands of passionate chefs and food enthusiasts on the PROLEARN platform.
                 Start sharing your recipes and culinary expertise today.
               </p>
               
