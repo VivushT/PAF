@@ -114,7 +114,7 @@ const ProgressDashboard = ({ userId }) => {
   return (
     <div style={{
       minHeight: '100vh',
-      background: 'linear-gradient(to bottom right, #7c2d12, #b45309)',
+      background: 'linear-gradient(to bottom right,rgb(18, 119, 124),rgb(9, 180, 174))',
       color: 'white',
       display: 'flex',
       flexDirection: 'column',

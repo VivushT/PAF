@@ -1,6 +1,6 @@
 .navbar {
     height: 50px;
-    background-color: rgb(239 174 11 / 96%);
+    background-color: rgba(20, 153, 133, 0.96);
     color: white;
     display: flex;
     align-items: center;
@@ -171,8 +171,8 @@
     cursor: pointer;
 }
 .google{
-    background-color: #df4930;
-    background: #df4930;
+    background-color: #17a88b;
+    background: #13a57e;
     width: 400px;
     display: flex;
     align-items: center;

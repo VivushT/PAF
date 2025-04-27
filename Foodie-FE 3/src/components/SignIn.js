@@ -107,7 +107,7 @@ function SignIn() {
     <>
       <div style={{
         minHeight: '100vh',
-        background: 'linear-gradient(to bottom right, #7c2d12, #b45309)',
+        background: 'linear-gradient(to bottom right,rgb(18, 124, 105),rgb(13, 112, 102))',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -187,7 +187,7 @@ function SignIn() {
             fontWeight: 'bold',
             color: 'white',
             margin: 0
-          }}>COOKSHARE</h1>
+          }}>PROLEARN</h1>
         </div>
 
         <div style={{
@@ -221,11 +221,11 @@ function SignIn() {
                 fontWeight: 'bold',
                 color: '#92400e',
                 marginBottom: '0.5rem'
-              }}>Welcome Back, Chef!</h2>
+              }}>Welcome Back Learner!</h2>
               <p style={{
                 color: '#78350f',
                 fontSize: '1rem'
-              }}>Sign in to continue your culinary journey</p>
+              }}>Sign in to Continue your Smart Journey</p>
             </div>
 
             <div style={{
@@ -369,7 +369,7 @@ function SignIn() {
           {/* Right side decorative panel */}
           <div style={{
             flex: 1,
-            background: 'linear-gradient(135deg, #92400e, #ea580c)',
+            background: 'linear-gradient(135deg,rgb(12, 102, 90),rgb(15, 96, 76))',
             padding: '2rem',
             display: 'flex',
             flexDirection: 'column',
@@ -406,13 +406,13 @@ function SignIn() {
                 fontSize: '2rem',
                 fontWeight: 'bold',
                 marginBottom: '1rem'
-              }}>Cook. Share. Inspire.</h2>
+              }}>learn. Share. Inspire.</h2>
               <p style={{
                 fontSize: '1.125rem',
                 marginBottom: '2rem',
                 lineHeight: '1.6'
               }}>
-                Join thousands of passionate chefs and food enthusiasts on the COOKSHARE platform.
+                Join thousands of passionate Learner and food enthusiasts on the PROLEARN platform.
                 Share your recipes or learn new culinary techniques today.
               </p>
               

@@ -41,7 +41,7 @@ function AllAccounts() {
   return (
     <div style={{
       minHeight: '100vh',
-      background: 'linear-gradient(to bottom right, #7c2d12, #b45309)',
+      background: 'linear-gradient(to bottom right,rgb(18, 106, 124),rgb(9, 169, 180))',
       color: 'white',
       display: 'flex',
       flexDirection: 'column',

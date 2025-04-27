@@ -28,11 +28,11 @@ function NewsFeed() {
 
   return (
     <Container className="pt-3">
-      <AppBar sx={{background:' #b45309'}} position="static" color="primary">
+      <AppBar sx={{background:'rgb(9, 174, 180)'}} position="static" color="primary">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link to="/s" className={styles.navTitle} style={{ textDecoration: "none", color: "inherit" }}>
-              COOKSHARE
+            PROLEARN
             </Link>
           </Typography>
           <Box>
