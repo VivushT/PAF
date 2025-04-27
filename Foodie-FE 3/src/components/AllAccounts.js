@@ -19,7 +19,7 @@ function AllAccounts() {
     if (dispatch(getFollowingAccounts())){
       dispatch(getAllAccounts());
     }
-    }, )
+    }, [dispatch, getFollowingAccounts, getAllAccounts])
 
   useEffect(() => {
     if (localStorage.getItem("psnToken") === null) {
