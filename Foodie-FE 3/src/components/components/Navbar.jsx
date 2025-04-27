@@ -51,7 +51,7 @@ const Navbar = ({ user }) => {
                             </Link>
                         </span>
                     </ul>
-                ) : (<Link className='linklog' to="login">Login</Link>)
+                ) : (<Link className='linklog' to="login"></Link>)
             }
 
 
