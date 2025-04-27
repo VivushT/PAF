@@ -63,11 +63,7 @@ function HomePage() {
               <h1  style={{ color: "blue" }}>PAF Assignment</h1>
             </Row>
             <br />
-            <Row>
-              <h3  style={{ color: "blue" }}>Food Review Application</h3>
-            </Row>{" "}
-            <br />
-            <Row>
+            
               <Link to="/signin" className={styles.linkTextFormat}><Button variant="success" className={`${styles.btnHomePage} mb-3`}>Sign In <RiLoginBoxLine /></Button></Link>
             </Row>
             <Row>
