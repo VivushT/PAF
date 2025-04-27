@@ -60,7 +60,7 @@ function HomePage() {
           <div className={styles.colWithButtons}>
             <img src={Logo} alt="PSN logo" width={120} className="mb-3" />
             <Row style={{ color: "blue" }}>
-              <h1  style={{ color: "blue" }}>PAF Assignment</h1>
+              <h1  style={{ color: "blue" }}>PAF </h1>
             </Row>
             <br />
             <Row>
