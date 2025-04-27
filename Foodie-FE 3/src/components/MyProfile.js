@@ -10,7 +10,7 @@ import { Formik } from "formik";
 import * as yup from "yup";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
-import { Utensils, BookOpen, Pencil, Trash2, UserX } from 'lucide-react';
+import { Utensils, BookOpen, Pencil, Trash2, UserX, GraduationCap} from 'lucide-react';
 
 function MyProfile(props) {
   const navigate = useNavigate();
@@ -288,7 +288,7 @@ function MyProfile(props) {
           justifyContent: 'center',
           alignItems: 'center'
         }}>
-          <Utensils size={32} style={{ color: '#b45309' }} />
+          <GraduationCap size={32} style={{ color: '#b45309' }}z />
         </div>
         <h1 style={{
           fontSize: '2rem',
@@ -383,7 +383,7 @@ function MyProfile(props) {
                     alignItems: 'center',
                     gap: '0.5rem'
                   }}>
-                    <Pencil size={18} /> About Me
+                    <Pencil size={18} /> 
                   </Form.Label>
                   <Form.Control
                     type="text"

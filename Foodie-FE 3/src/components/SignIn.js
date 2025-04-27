@@ -10,7 +10,7 @@ import { RiLoginBoxLine } from "react-icons/ri";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import google from "./assets/images/google.png";
-import { Utensils } from 'lucide-react';
+import { GraduationCap } from 'lucide-react';
 import Snackbar from "@mui/material/Snackbar";
 import Alert from "@mui/material/Alert";
 
@@ -180,7 +180,7 @@ function SignIn() {
             justifyContent: 'center',
             alignItems: 'center'
           }}>
-            <Utensils size={32} style={{ color: '#b45309' }} />
+            <GraduationCap size={32} style={{ color: '#b45309' }} />
           </div>
           <h1 style={{
             fontSize: '2.5rem',

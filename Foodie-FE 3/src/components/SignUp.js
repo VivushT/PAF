@@ -9,7 +9,7 @@ import Button from "react-bootstrap/Button";
 import { BsFillPersonPlusFill } from "react-icons/bs";
 import { Link, useNavigate } from "react-router-dom";
 import GoogleAuth from "./googleAuth";
-import { Utensils } from 'lucide-react';
+import { GraduationCap } from 'lucide-react';
 import Snackbar from "@mui/material/Snackbar";
 import Alert from "@mui/material/Alert";
 
@@ -195,7 +195,7 @@ function SignUp() {
             justifyContent: 'center',
             alignItems: 'center'
           }}>
-            <Utensils size={32} style={{ color: '#b45309' }} />
+            <GraduationCap size={32} style={{ color: '#b45309' }} />
           </div>
           <h1 style={{
             fontSize: '2.5rem',
