@@ -46,16 +46,16 @@ const ProgressTracker = ({ userId }) => {
 
   // Example cooking skill titles
   const skillExamples = [
-    'Knife Handling',
-    'Chopping Vegetables',
-    'Meal Preparation',
-    'Baking Bread',
-    'Perfecting Pasta',
-    'Mastering Sauces',
-    'Recipe Creation',
-    'Plating Techniques',
-    'Flavor Balancing',
-    'Cultural Dishes'
+    'Java',
+    'Python',
+    'Cloud computing',
+    'Devops',
+    'React',
+    'Angular',
+    'Full stack',
+    'bootstrap',
+    'data science',
+    'logistics'
   ];
 
   // Fetch all progress items for the user

@@ -4,7 +4,7 @@ import PostItem from "./PostItem";
 import { Spinner } from "react-bootstrap";
 import { getFollowingPosts } from "../feature/followingPost/followingPostSlice";
 import { useDispatch, useSelector } from "react-redux";
-import { Utensils } from 'lucide-react';
+import { GraduationCap } from 'lucide-react';
 
 function NewsFeedContent() {
   const dispatch = useDispatch();
@@ -96,7 +96,7 @@ function NewsFeedContent() {
           justifyContent: 'center',
           alignItems: 'center'
         }}>
-          <Utensils size={32} style={{ color: '#b45309' }} />
+          <GraduationCap size={32} style={{ color: '#b45309' }} />
         </div>
         <h1 style={{
           fontSize: '2rem',
