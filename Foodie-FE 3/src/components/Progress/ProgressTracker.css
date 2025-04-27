@@ -1,7 +1,7 @@
 /* Progress Tracker Styles */
 .progress-tracker {
     min-height: 100vh;
-    background: linear-gradient(to bottom right, #7c2d12, #b45309);
+    background: linear-gradient(to bottom right, #127c73, #09b4a9);
     color: white;
     display: flex;
     flex-direction: column;
@@ -75,7 +75,7 @@
   
   .add-button {
     padding: 0.75rem 1.5rem;
-    background-color: #f97316;
+    background-color: #0a5b6d;
     color: white;
     border: none;
     border-radius: 0.5rem;
@@ -136,7 +136,7 @@
     transform: translateX(-50%);
     width: 60px;
     height: 3px;
-    background-color: #d97706;
+    background-color: #06c4d9;
     border-radius: 2px;
   }
   
@@ -199,7 +199,7 @@
   
   .submit-button {
     padding: 0.75rem 1.5rem;
-    background-color: #f97316;
+    background-color: #0a6672;
     color: white;
     border: none;
     border-radius: 0.5rem;
@@ -214,7 +214,7 @@
   }
   
   .submit-button:hover {
-    background-color: #ea580c;
+    background-color: #0b889b;
   }
   
   /* List Header */
