@@ -177,7 +177,7 @@ public class PostService {
                 Collections.sort(listPosts, (o1, o2) -> o2.getPost().getCreatedAt().compareTo(o1.getPost().getCreatedAt()));
                 responseObj.setStatus("success");
                 responseObj.setMessage("success");
-                responseObj.setPayload(listPosts);
+                responseObj.setPayload();
                 return responseObj;
             } else {
                 responseObj.setStatus("fail");
