@@ -132,8 +132,8 @@ export default function CookingSkillsLanding() {
           transition: 'transform 1s, opacity 1s',
           transitionDelay: '0.4s'
         }}>
-          PROLEARN is a community where passionate foodies connect to share recipes, 
-          learning techniques, and culinary expertise from around the world.
+          PROLEARN is a community where passionate learners connect to share educational resources, learning techniques, and expertise from around the world.
+
         </p>
 
         {/* Feature highlights */}
@@ -158,8 +158,10 @@ export default function CookingSkillsLanding() {
             backdropFilter: 'blur(4px)'
           }}>
             <Users style={{ color: '#fbbf24', marginBottom: '1rem' }} size={32} />
-            <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Global Kitchen</h3>
-            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Connect with chefs and home cooks from around the world sharing authentic recipes.</p>
+            <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Global Learning Hub.
+            </h3>
+            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Connect with educators from around the world sharing authentic e-learning resources.
+            </p>
           </div>
           <div style={{
             backgroundColor: 'rgba(255, 255, 255, 0.1)',
@@ -168,8 +170,10 @@ export default function CookingSkillsLanding() {
             backdropFilter: 'blur(4px)'
           }}>
             <Book style={{ color: '#fbbf24', marginBottom: '1rem' }} size={32} />
-            <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Recipe Collection</h3>
-            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Discover thousands of recipes from everyday meals to gourmet creations.</p>
+            <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Learning Resource Collection.
+            </h3>
+            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Discover thousands of learning resources, from foundational topics to advanced knowledge.
+            </p>
           </div>
           <div style={{
             backgroundColor: 'rgba(255, 255, 255, 0.1)',
@@ -179,7 +183,8 @@ export default function CookingSkillsLanding() {
           }}>
             <Clock style={{ color: '#fbbf24', marginBottom: '1rem' }} size={32} />
             <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Live Workshops</h3>
-            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Join virtual learning sessions with expert chefs and learn new techniques in real-time.</p>
+            <p style={{ color: 'rgba(255, 243, 232, 0.9)' }}>Join virtual learning sessions with expert educators and gain new skills in real-time.
+            </p>
           </div>
         </div>
 

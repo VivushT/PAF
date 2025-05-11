@@ -24,15 +24,15 @@ const ProgressTracker = ({ userId }) => {
   // Predefined cooking-related categories
   const cookingCategories = [
     'Basic Learning',
-    'Baking',
-    'Knife Skills',
-    'Meal Prep',
-    'Recipe Mastery',
-    'Plating & Presentation',
-    'Flavor Combining',
-    'Dietary Cooking',
-    'Culinary Techniques',
-    'Cultural Cuisines'
+    'java',
+    'cloud computing',
+    'python',
+    'Devops',
+    'react',
+    'Full stack',
+    'AI/ML',
+    'Logistics',
+    'Data Science'
   ];
 
   // Common cooking time units
@@ -41,7 +41,7 @@ const ProgressTracker = ({ userId }) => {
     'hours',
     'days',
     'attempts',
-    'recipes'
+    
   ];
 
   // Example cooking skill titles
@@ -79,7 +79,7 @@ const ProgressTracker = ({ userId }) => {
         setError(response.data.message);
       }
     } catch (err) {
-      setError('Failed to fetch cooking progress items');
+      setError('Failed to fetch learning progress items');
       console.error(err);
     } finally {
       setLoading(false);
@@ -107,7 +107,7 @@ const ProgressTracker = ({ userId }) => {
         setError(response.data.message);
       }
     } catch (err) {
-      setError('Failed to create cooking progress item');
+      setError('Failed to create learning progress item');
       console.error(err);
     }
   };
@@ -134,7 +134,7 @@ const ProgressTracker = ({ userId }) => {
         setError(response.data.message);
       }
     } catch (err) {
-      setError('Failed to update cooking progress item');
+      setError('Failed to update learning progress item');
       console.error(err);
     }
   };
@@ -160,7 +160,7 @@ const ProgressTracker = ({ userId }) => {
         setError(response.data.message);
       }
     } catch (err) {
-      setError('Failed to delete cooking progress item');
+      setError('Failed to delete learning progress item');
       console.error(err);
     }
   };
@@ -221,7 +221,7 @@ const ProgressTracker = ({ userId }) => {
         setError(response.data.message);
       }
     } catch (err) {
-      setError('Failed to update cooking progress');
+      setError('Failed to update learning progress');
       console.error(err);
     }
   };
@@ -235,7 +235,7 @@ const ProgressTracker = ({ userId }) => {
       currentValue: 0,
       targetValue: 0,
       unit: 'minutes',
-      category: 'Basic Cooking',
+      category: 'Basic Learning',
       userId: userId
     });
     setShowForm(false);
@@ -457,7 +457,7 @@ const ProgressTracker = ({ userId }) => {
                 type="submit" 
                 className="submit-button"
               >
-                {editMode ? 'Update Cooking Skill' : 'Track Learning Skill'}
+                {editMode ? 'Update Learning Skill' : 'Track Learning Skill'}
               </button>
             </div>
           </form>

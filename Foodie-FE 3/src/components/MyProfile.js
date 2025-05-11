@@ -437,7 +437,7 @@ function MyProfile(props) {
           marginTop: '1.5rem'
         }}>
           {/* My Posts Button */}
-          <Button
+          { <Button
             onClick={handleShowModal}
             style={{
               backgroundColor: '#92400e',
@@ -454,8 +454,8 @@ function MyProfile(props) {
             }}
           >
             <BookOpen size={18} />
-            My Recipes & Posts
-          </Button>
+            My Posts
+          </Button> }
           
           {/* SavedPosts Component */}
           <SavedPosts />
@@ -504,7 +504,7 @@ function MyProfile(props) {
             alignItems: "center",
             gap: "0.5rem"
           }}>
-            <BookOpen size={20} /> My Recipes & Posts
+            <BookOpen size={20} /> My Posts
           </Modal.Title>
         </Modal.Header>
         

@@ -46,7 +46,7 @@ function EducationalContentPage() {
           />
         ))}
         
-        {/* Kitchen utensil shapes */}
+        {/*utensil shapes */}
         {[...Array(5)].map((_, i) => (
           <div 
             key={`utensil-${i}`}

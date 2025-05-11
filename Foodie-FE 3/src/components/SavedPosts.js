@@ -100,7 +100,7 @@ function SavedPosts() {
 
   return (
     <>
-      <Button
+      { <Button
         onClick={handleShowModal}
         style={{
           backgroundColor: '#92400e',
@@ -117,8 +117,8 @@ function SavedPosts() {
         }}
       >
         <RiBookmarkFill size={18} />
-        Bookmarked Recipes
-      </Button>
+        Bookmarked Posts
+      </Button> }
 
       <Modal
         show={showModal}
@@ -139,7 +139,7 @@ function SavedPosts() {
             alignItems: "center",
             gap: "0.5rem"
           }}>
-             My Recipes & Posts
+             Bookmarked Posts
           </Modal.Title>
         </Modal.Header>
         <Modal.Body style={{ maxHeight: "500px", overflowY: "auto" }}>
